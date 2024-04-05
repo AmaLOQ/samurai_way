@@ -1,0 +1,8 @@
+.dialogsHeader {
+    padding: 0px 15px 0px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}

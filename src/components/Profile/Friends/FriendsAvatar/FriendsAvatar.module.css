@@ -1,0 +1,18 @@
+.friendsAvatarWrapper {
+ padding: 4px 8px;
+}
+.friendsAvatarImgContainer {
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+.friendsAvatarImgContainer img {
+    max-width: 100%;
+}
+.friendsAvatarName {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}

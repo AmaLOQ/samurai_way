@@ -1,0 +1,6 @@
+.profileMainContainer {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}

@@ -1,0 +1,15 @@
+.dialogsWrapper {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-template-rows: auto;
+    gap: 10px;
+}
+.dialogsPage {
+    width: 100%;
+    min-height: 90vh;
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+

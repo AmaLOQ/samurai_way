@@ -1,0 +1,31 @@
+.messageWrapper {
+    display: flex;
+    padding: 10px 20px 10px;
+}
+.messageAvatarContainer {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.messageAvatar {
+    max-width: 100%;
+}
+.messageDescr {
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-column: auto;
+    padding-left: 20px;
+}
+.messageSender {
+    font-weight: 500;
+    margin: 2px 0px 5px;
+    grid-column: 1/4;
+}
+.messageTime {
+    font-weight: 500;
+    color: gray;
+    font-size: 14px;
+}
+

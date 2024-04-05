@@ -1,0 +1,11 @@
+.linkItem {
+    padding: 3px;
+}
+.linkItem:hover{
+    background-color: ghostwhite;
+}
+.link {
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+}

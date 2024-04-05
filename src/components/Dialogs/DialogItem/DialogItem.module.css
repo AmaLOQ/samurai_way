@@ -1,0 +1,43 @@
+.dialogItemContainer {
+    position: relative;
+    padding: 10px 15px 10px;
+
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.dialogItemImgWrapper {
+    width: 55px;
+    height: 55px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+.dialogItemImg {
+    max-width: 100%;
+}
+.dialogItemDescr {
+    display: grid;
+    grid-template-columns: 15fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 20px;
+    flex-grow: 1;
+}
+.dialogItemSenderName {
+    margin: 2px 0px 5px;
+    grid-column: 1/4;
+    font-weight: 500;
+    color: black;
+}
+.dialogItemLastMessage {
+
+}
+.dialogHover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.dialogHover:hover {
+    background-color: rgba(0,0,0, .1);
+}
